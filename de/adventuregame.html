@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link id="favicon" rel="icon" href="../icons/0.png" type="image/png" sizes="32x32">
+      <title>Benjamin's Website - OpenWorld</title>
+      <link rel="stylesheet" href="../style.css">
+  </head>
+  <body>
+    <div>
+      <img class="title" src="../icon.gif" loop=infinite />
+      <h1 class="title">Benjamin's <br /> Website</h1>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <a href="index.html" class="button">Home</a>
+      <a href="games.html" class="button">-Games-</a>
+      <a href="code.html" class="button">Code</a>
+      <a href="tools.html" class="button">Tools</a>
+      <a href="other.html" class="button">Other</a>
+      <a href="../en/adventuregame.html" class="button"><img class="languageimg" src="en.png"/></a>
+
+      <br />
+      Willkommen auf dieser Seite!<br />
+      <h1 >Update 0.0.10_c</h1>
+      <br />
+      Hinzugefügt wurden:
+      <br />
+      + Welten Generierung (Nur Terrain)
+      <br />
+      - Benjamin
+      <br />
+      <br />
+      <a href="https://drive.google.com/u/0/uc?export=download&confirm=U1RT&id=1ilOZjaeWDamhC5PGuA_-UMBo0Qr8T7JV" class="button">Herunterladen</a>
+      <br />
+      <h1 >Update 0.0.10_b</h1>
+      <br />
+      Hinzugefügt wurden:
+      <br />
+      + Cheat Konsole Befehle (heal, explosion, kill, summon, damage) (summon[cube], summon[cube],norb) NUR Debug Welt<br />
+      + Aufhebare und werfbare Gegenstände (F zum aufheben und loslassen Linke maus taste zum werfen)<br />
+      + Death Screen (Wiederbeleben, Zurück zum Hauptmenü)
+      <br />
+      - Benjamin
+      <br />
+      <br />
+      <a href="https://drive.google.com/u/0/uc?export=download&confirm=F3Tk&id=1prCvZ0RZrQwaZuGqq8Q-LF0VyZClCc1U" class="button">Herunterladen</a>
+      <br />
+      <h1 >Update 0.0.10_a</h1>
+      <br />
+      Hinzugefügt wurden:
+      <br />
+      + Cheat Konsole(Help, Speed, Jump) NUR Debug Welt
+      <br />
+      <br />
+      - Benjamin
+      <br />
+      <br />
+      <a href="https://drive.google.com/u/0/uc?export=download&confirm=gxpM&id=1Kih9OKh6ljGH-rkLEV58oAyOo2Yj2Jw3" class="button">Herunterladen</a>
+      <br />
+      <h1 >Update 0.0.10 ist da!!</h1>
+      <br />
+      Hinzugefügt wurden:
+      <br />
+      + Demo Welt
+      <br />
+      + Neues Hauptmenü
+      <br />
+      + "Einstellungsmenü"
+      <br />
+      + Tag Nacht Zyklus
+      <br />
+      + Bessere licht Effekte
+      <br />
+      + Controller Support
+      <br />
+      + Bessere Gui
+      <br />
+      Entfernt wurden:
+      <br />
+      - Alte Demo Welt
+      <br />
+      <br />
+      - Benjamin
+      <br />
+      <br />
+      Neuses Main Menu:
+      <br />
+      <img src="../images/screenshoot.png" class="left"/>
+      <br />
+      Debug Welt:
+      <br />
+      <img src="https://github.com/BiberGames/303/blob/master/images/Mpbile_Demo_Custom..._11-12-2020_16-28-39.png?raw=true" class="left"/>
+      <br />
+      <br />
+      <br />
+      <a href="https://drive.google.com/u/0/uc?export=download&confirm=MMm5&id=1IUkRotZrY4KxPCevSuPRT4K5mogUnl8_" class="button">Herunterladen</a>
+      <br />
+    </div>
+    <script>
+      window.onload = function() {
+      var faviconIndex = 0;
+      var favicon = document.getElementById('favicon');
+      var t = document.title;
+      var i = 1
+  
+      setInterval(function() {
+              favicon.href = "../icons/" + faviconIndex + ".png";
+              faviconIndex++;
+              faviconIndex %= 19;
+              var len = document.title.length;
+              if(len == 0){
+              i = 0;
+              }
+              //document.title = t.substring(i, t.length);
+              i++;
+              }, 44);
+      };
+    </script>
+  </body>
+</html>
